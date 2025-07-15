@@ -16,7 +16,7 @@ An internal web application to manage the booking of shared resources such as me
 
 ## 🛠 Technologies Used
 
-- ASP.NET Core MVC (.NET 6/7/8)
+- ASP.NET Core MVC (.NET 9)
 - Entity Framework Core
 - Microsoft SQL Server / LocalDB
 - Bootstrap (via default ASP.NET template)
@@ -27,7 +27,7 @@ An internal web application to manage the booking of shared resources such as me
 ## Getting Started
 
 ### Prerequisites
-- [.NET 7 SDK](https://dotnet.microsoft.com/download)
+- [.NET 9 SDK](https://dotnet.microsoft.com/download)
 - [SQL Server LocalDB](https://learn.microsoft.com/en-us/sql/database-engine/configure-windows/sql-server-express-localdb) (or SQLite configured in appsettings.json)
 - IDE like Visual Studio 
 
