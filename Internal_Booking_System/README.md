@@ -24,20 +24,32 @@ An internal web application to manage the booking of shared resources such as me
 
 ---
 
-## 📁 Project Structure
+## Getting Started
 
-InternalBookingSystem/
-│
-├── Controllers/         → BookingsController.cs and HomeController.cs and ResourcesController.cs
-|── Data/                → ApplicationDbContext.cs
-|── Migration/           → 20250715082139_InitialCleanSetup.cs and ApplicationDbContextModelSnapshot.cs_
-├── Models/              → Booking.cs and ErrorViewModel.cs and Resource.cs
-├── Views/
-│   ├── Bookings/        → Create,  Delete, Details,Edit, Index
-│   ├── Resources/       → Index, Details, Edit
-│   └── Shared/          → Layout and partials
-├
-├── wwwroot/             → CSS, JS
-├── appsettings.json     → DB config
-├── Program.cs
-└── README.md
+### Prerequisites
+- [.NET 7 SDK](https://dotnet.microsoft.com/download)
+- [SQL Server LocalDB](https://learn.microsoft.com/en-us/sql/database-engine/configure-windows/sql-server-express-localdb) (or SQLite configured in appsettings.json)
+- IDE like Visual Studio 
+
+### Setup & Run
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Ramashiya/Internal_Booking_System.git
+   cd Internal_Booking_System
+2.Restore dependencies:
+  ```bash
+   dotnet restore
+```
+
+3.Apply database migrations:
+   ```bash
+   dotnet ef database update
+```
+4.Run the application:
+  ```bash
+dotnet run
+```
+5.Open your browser and navigate to:
+https://localhost:7011
+
