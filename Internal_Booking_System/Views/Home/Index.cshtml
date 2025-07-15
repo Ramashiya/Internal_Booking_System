@@ -1,0 +1,15 @@
+﻿@{
+    ViewData["Title"] = "Dashboard";
+}
+
+<h1>Internal Booking System Dashboard</h1>
+
+<p>Welcome to the Internal Resource Booking System.</p>
+
+<div class="mb-4">
+    <a asp-controller="Bookings" asp-action="Create" class="btn btn-primary">Add Booking</a>
+    <a asp-controller="Resources" asp-action="Create" class="btn btn-secondary">Add Resource</a>
+</div>
+
+<h4>Today's Bookings</h4>
+<partial name="_TodayBookingsPartial" />
