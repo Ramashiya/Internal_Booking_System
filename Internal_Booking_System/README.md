@@ -33,10 +33,12 @@ An internal web application to manage the booking of shared resources such as me
 
 ### Setup & Run
 
-1. Clone the repository:
+1.Clone the repository:
    ```bash
+   
    git clone https://github.com/Ramashiya/Internal_Booking_System.git
    cd Internal_Booking_System
+   ```
 2.Restore dependencies:
   ```bash
    dotnet restore
